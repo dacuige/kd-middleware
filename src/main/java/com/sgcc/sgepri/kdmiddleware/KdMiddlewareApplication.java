@@ -19,7 +19,7 @@ public class KdMiddlewareApplication {
 	@Bean
 	public CommandLineRunner demo() {
 		return (args) -> {
-			log.info("You Can init your code here!");
+			log.info("You can init your code here!");
 		};
 	}
 }
